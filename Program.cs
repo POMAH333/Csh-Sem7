@@ -90,7 +90,7 @@ void PrintArrayReal(double[] array)
     for (i = 0; i < array.Length; i++)
     {
         System.Console.Write($"{Math.Round(array[i], 2)}");
-        if (i != array.Length - 1) System.Console.Write(", ");
+        if (i != array.Length - 1) System.Console.Write("; ");
     }
     System.Console.Write("]");
     System.Console.WriteLine();
